@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "firstName": "Dilshani",
+      "lastName": "Thathsara",
+      "email": "dilshanithathsara@gmail.como",
+      "mobile": "0772345234",
+      "salary": "9000"
+    },
+    {
+      "id": 3,
+      "firstName": "Bimsara",
+      "lastName": "Lakshan",
+      "email": "binsara@gmail.com",
+      "mobile": "0773344564",
+      "salary": "70000"
+    },
+    {
+      "id": 4,
+      "firstName": "Malith",
+      "lastName": "Perera",
+      "email": "malith@gmail.com",
+      "mobile": "088333652",
+      "salary": "56000"
+    },
+    {
+      "id": 5,
+      "firstName": "Shriy",
+      "lastName": "Lilu",
+      "email": "shiru@gmail.com",
+      "mobile": "072245724",
+      "salary": "78000"
+    },
+    {
+      "id": 6,
+      "firstName": "dilshani",
+      "lastName": "Thathsara",
+      "email": "dilshanithathsara@gmail.com",
+      "mobile": "0712935660",
+      "salary": "56000"
+    },
+    {
+      "id": 10,
+      "firstName": "dilshani",
+      "lastName": "Thathsara",
+      "email": "dilshanithathsara@gmail.com",
+      "mobile": "0712935660",
+      "salary": "56000"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
