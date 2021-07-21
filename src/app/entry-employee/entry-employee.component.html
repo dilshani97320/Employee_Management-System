@@ -1,22 +1,22 @@
-
 <nav class="navbar navbar-light bg-warning">
-  <div class="container-fluid">
-    <div class="d-flex">
-      <i class="fas fa-user-shield" style="font-size: 3rem;"></i>
-    </div>
-    <div class="d-flex">
-     <a routerLink="dashboard" class="active"> <button class="btn mx-2 text-light" style="width: 11rem;height: 4rem;background: #DC143C;"><span><i class="fas fa-user-tie text-light mx-2" style="font-size: 2rem;"></i></span>Executive</button></a>
-     <a routerLink="mid-employee"><button class="btn  text-light mx-2"style="width: 11rem;height: 4rem;background: #008B8B;" ><span><i class="fas fa-user-friends text-light mx-2" style="font-size: 2rem;"></i></span>Intermediate</button></a>
-     <a routerLink="entry-employee"><button class="btn text-light mx-2"style="width: 11rem;height: 4rem;background: #663399;" ><span><i class="fas fa-users text-light mx-2" style="font-size: 2rem;"></i></span>Entry</button></a>
-    </div>
-    
+    <div class="container-fluid">
       <div class="d-flex">
-          <button (click)="clickAddEmployee()" class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#exampleModal">Add Employee</button>
+        <i class="fas fa-user-shield" style="font-size: 3rem;"></i>
       </div>
-  </div>
+      <div class="d-flex">
+       <a routerLink=''class="active" ><button class="btn mx-2 text-light" style="width: 11rem;height: 4rem;background: #DC143C;"><span><i class="fas fa-user-tie text-light mx-2" style="font-size: 2rem;"></i></span>Executive</button></a>
+       <a routerLink="mid-employee"><button class="btn  text-light mx-2"style="width: 11rem;height: 4rem;background: #008B8B;" ><span><i class="fas fa-user-friends text-light mx-2" style="font-size: 2rem;"></i></span>Intermediate</button></a>
+       <a routerLink="entry-employee" class="active"><button class="btn text-light mx-2"style="width: 11rem;height: 4rem;background: #663399;" ><span><i class="fas fa-users text-light mx-2" style="font-size: 2rem;"></i></span>Entry</button></a>
+      </div>
+      
+        <div class="d-flex">
+            <button (click)="clickAddEmployee()" class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#exampleModal">Add Employee</button>
+        </div>
+    </div>
 </nav>
-<div class="container-fluid " style="margin: 0;padding: 0;height: 100vh;background-image: linear-gradient(to right, #434343 0%, black 100%);">
-<h2 class="text-center py-3" style="color:#DC143C">Executive-Level Employee Dashboard</h2>
+<div class="container-fluid" style="margin: 0;padding: 0;height: 100vh;background-image: linear-gradient(to right, #434343 0%, black 100%);">
+
+<h2 class="text-center py-3" style="color: #663399;">Entry-Level Employee Dashboard</h2>
 <div class="container-fluid px-5">
 <table class="pt-5 mt-5 table table-striped table-dark">
     <thead>
@@ -32,7 +32,7 @@
     </thead>
     <tbody>
 
-      <tr *ngFor="let row of employeeData">
+      <tr *ngFor="let row of entryemployeeData">
             <td>{{row.id}}</td>
             <td>{{row.firstName}}</td>
             <td>{{row.lastName}}</td>
@@ -86,7 +86,6 @@
                 
                 
               </form>
-
         </div>
         <div class="modal-footer">
           <button type="button" id="cancel" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
