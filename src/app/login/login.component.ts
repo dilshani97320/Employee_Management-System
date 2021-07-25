@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup,FormControl,Validators } from '@angular/forms';
+
 import { ApiService } from '../shared/api.service';
 import { LoginModel } from './login.model';
 
@@ -23,19 +24,24 @@ username:new FormControl('',[Validators.required]),
 password:new FormControl('',[Validators.required]),
 
 
-  })
+  });
 }
 loginProcess(){
   if(this.formValue.valid){
-    this.api.login(this.LoginModelObj)
+    this.api.login(this.formValue.value)
     .subscribe(res=>{
-      if(res){
-        console.log(res==0);
-        alert("login success");
+      if(res.success){
+        alert("success")
       }else{
         alert("fail login")
       }
-    })
+    });
   }
+
+
+
+    
+
+
 }
 }

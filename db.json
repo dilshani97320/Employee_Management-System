@@ -5,7 +5,7 @@
       "firstName": "Bimsara",
       "lastName": "Lakshan",
       "email": "binsara@gmail.com",
-      "mobile": "0773344564",
+      "mobile": "0773344569",
       "salary": "75000"
     },
     {
@@ -22,13 +22,21 @@
       "lastName": "Maheesha",
       "email": "saduni97@gamil.com",
       "mobile": "09977632",
-      "salary": "70000"
+      "salary": "78000"
+    },
+    {
+      "id": 13,
+      "firstName": "Jayani",
+      "lastName": "Perera",
+      "email": "jayani@gmail.com",
+      "mobile": "0773366454",
+      "salary": "88000"
     }
   ],
   "entry": [
     {
       "id": 1,
-      "firstName": "dfx",
+      "firstName": "Dilshani",
       "lastName": "Thathsara",
       "email": "dilshanithathsara@gmail.com",
       "mobile": "0773275732",
@@ -41,14 +49,6 @@
       "email": "devika@gmail.com",
       "mobile": "077123375",
       "salary": "45000"
-    },
-    {
-      "id": 3,
-      "firstName": "Pradeep",
-      "lastName": "Perera",
-      "email": "pradeep@gmail.com",
-      "mobile": "077875352",
-      "salary": "30000"
     },
     {
       "id": 4,
@@ -73,6 +73,14 @@
       "email": "janith@gmail.com",
       "mobile": "077334245",
       "salary": "30000"
+    },
+    {
+      "id": 7,
+      "firstName": "Kaveesha",
+      "lastName": "Prasangi",
+      "email": "kaveesha@gmail.com",
+      "mobile": "077233421",
+      "salary": "45000"
     }
   ],
   "mid": [

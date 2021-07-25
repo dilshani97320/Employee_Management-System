@@ -6,10 +6,11 @@ import { LoginComponent } from './login/login.component';
 import { MidEmployeeComponent } from './mid-employee/mid-employee.component';
 
 const routes: Routes = [
-{path:'',component:LoginComponent},
-{path:'dashboard',component:DashboardComponent},
+//{path:'',component:LoginComponent},
+{path:'',component:DashboardComponent},
 {path:'mid-employee',component:MidEmployeeComponent},
-{path:'entry-employee',component:EntryEmployeeComponent}
+{path:'entry-employee',component:EntryEmployeeComponent},
+{path:'login',component:LoginComponent},
 ];
 
 @NgModule({
