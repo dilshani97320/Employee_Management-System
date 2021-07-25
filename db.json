@@ -1,52 +1,110 @@
 {
   "posts": [
     {
-      "id": 2,
-      "firstName": "Dilshani",
-      "lastName": "Thathsara",
-      "email": "dilshanithathsara@gmail.como",
-      "mobile": "0772345234",
-      "salary": "9000"
-    },
-    {
       "id": 3,
       "firstName": "Bimsara",
       "lastName": "Lakshan",
       "email": "binsara@gmail.com",
-      "mobile": "0773344564",
-      "salary": "70000"
+      "mobile": "0773344569",
+      "salary": "75000"
     },
     {
-      "id": 4,
-      "firstName": "Malith",
-      "lastName": "Perera",
-      "email": "malith@gmail.com",
-      "mobile": "088333652",
-      "salary": "56000"
+      "id": 11,
+      "firstName": "Ramya",
+      "lastName": "Soiza",
+      "email": "ramya23@gmail.com",
+      "mobile": "022638752",
+      "salary": "90000"
     },
     {
-      "id": 5,
-      "firstName": "Shriy",
-      "lastName": "Lilu",
-      "email": "shiru@gmail.com",
-      "mobile": "072245724",
+      "id": 12,
+      "firstName": "Saduni",
+      "lastName": "Maheesha",
+      "email": "saduni97@gamil.com",
+      "mobile": "09977632",
       "salary": "78000"
     },
     {
-      "id": 6,
-      "firstName": "dilshani",
+      "id": 13,
+      "firstName": "Jayani",
+      "lastName": "Perera",
+      "email": "jayani@gmail.com",
+      "mobile": "0773366454",
+      "salary": "88000"
+    }
+  ],
+  "entry": [
+    {
+      "id": 1,
+      "firstName": "Dilshani",
       "lastName": "Thathsara",
       "email": "dilshanithathsara@gmail.com",
-      "mobile": "0712935660",
-      "salary": "56000"
+      "mobile": "0773275732",
+      "salary": "6000000"
     },
     {
-      "id": 10,
-      "firstName": "dilshani",
+      "id": 2,
+      "firstName": "Devika",
+      "lastName": "Fernando",
+      "email": "devika@gmail.com",
+      "mobile": "077123375",
+      "salary": "45000"
+    },
+    {
+      "id": 4,
+      "firstName": "Jehan",
+      "lastName": "Milika",
+      "email": "jehan234@gmail.com",
+      "mobile": "099673214",
+      "salary": "34000"
+    },
+    {
+      "id": 5,
+      "firstName": "Pubudu",
+      "lastName": "Lakshan",
+      "email": "pubudu@gmail.com",
+      "mobile": "09972643",
+      "salary": "25000"
+    },
+    {
+      "id": 6,
+      "firstName": "Janith",
+      "lastName": "Prasanga",
+      "email": "janith@gmail.com",
+      "mobile": "077334245",
+      "salary": "30000"
+    },
+    {
+      "id": 7,
+      "firstName": "Kaveesha",
+      "lastName": "Prasangi",
+      "email": "kaveesha@gmail.com",
+      "mobile": "077233421",
+      "salary": "45000"
+    }
+  ],
+  "mid": [
+    {
+      "id": 1,
+      "firstName": "Dilshani",
       "lastName": "Thathsara",
       "email": "dilshanithathsara@gmail.com",
-      "mobile": "0712935660",
+      "mobile": "0773275732",
+      "salary": "70000"
+    },
+    {
+      "id": 2,
+      "firstName": "Sunil",
+      "lastName": "Yayasinghe",
+      "email": "sunil@gmail.com",
+      "mobile": "0773275732",
       "salary": "56000"
+    }
+  ],
+  "login": [
+    {
+      "username": "Admin@123",
+      "password": "Admin@123"
     }
   ],
   "comments": [],
